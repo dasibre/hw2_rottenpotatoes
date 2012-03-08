@@ -1,4 +1,5 @@
 Rottenpotatoes::Application.routes.draw do
+  match '/sortbytitle', :to => 'movies#movie_title_sort'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

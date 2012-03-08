@@ -1,11 +1,10 @@
-\#*\#
+.bundle
+db/*.sqlite3*
+log/*.log
+*.log
+/tmp/
+doc/
+*.swp
 *~
-TAGS
-db/schema.rb
-log/
-db/*.sqlite3
-tmp/
-
-# bundler state
-/.bundle
-/vendor/bundle/
+.project
+.DS_Store
